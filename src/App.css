@@ -1,1 +1,18 @@
-/* Other rules */
+.description {
+  background-color: black;
+}
+.description:hover {
+  background-color: red;
+}
+.navigation {
+  cursor: pointer;
+  background-color: black;
+  color: grey;
+  border: none;
+  width: 100px;
+  height: 20px;
+  font-weight: bolder;
+}
+.navigation:hover {
+  border-bottom: solid 2px red;
+}
